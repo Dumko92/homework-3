@@ -168,7 +168,8 @@ body {
 }
 
 .benefits-item {
-    margin-bottom: var(--typical-margin)
+    width: 270px;
+    height: 101px;
 }
 
 .benefits-title {
@@ -215,8 +216,8 @@ body {
 
 .team {
     background: var(--team-background-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 162px;
+    padding-bottom: 26px;
     margin-bottom: 21px;
 }
 
@@ -228,6 +229,18 @@ body {
     letter-spacing: 0.03em;
     color: var(--title-color);
     margin-bottom: 50px;
+}
+
+.team-item {
+    width: 270px;
+    height: 368px;
+    background: var(--btn-font-color);
+}
+
+.container-team {
+    padding-top: var(--typical-margin);
+    padding-bottom: var(--typical-margin);
+    
 }
 
 .team-title {
@@ -259,6 +272,7 @@ body {
 
 .footer-logo {
     margin-bottom: 20px;
+    display: block;
 }
 
 .web-footer {
@@ -308,6 +322,8 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--btn-font-color);
+    margin-bottom: 9px;
+    display: block;
 }
 
 .footer-link-mail {
@@ -317,6 +333,8 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--btn-font-color);
+    margin-bottom: 9px;
+    display: block;
 }
 
 .footer-link-tel{
@@ -332,6 +350,15 @@ body {
 
 .portfolio {
     background: var(--about-benefits-background-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.portfolio-btn-list {
+    width: 611px;
+    height: 54px;
+    left: 495px;
+    top: 174px;
 }
 
 .portfolio-btn {
@@ -349,6 +376,16 @@ body {
     background: var(--accent-color);
 }
 
+.portfolio-item {
+    width: 370px;
+    height: 404px;
+    background-color: var(--btn-font-color);
+}
+
+.container-portfolio {
+    padding: 20px 24px;
+}
+
 
 .portfolio-title {
     font-weight: 700;
@@ -356,6 +393,7 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-color);
+    margin-bottom: 4px;
 }
 
 .portfolio-text{
