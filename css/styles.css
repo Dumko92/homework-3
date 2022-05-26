@@ -410,8 +410,10 @@ padding-bottom: 94px;
 }
 
 .portfolio-btn-list {
-   
+   display: flex;
 }
+
+ 
 
 .portfolio-btn {
     font-family: inherit;
