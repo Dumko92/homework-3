@@ -439,10 +439,12 @@ padding-bottom: 94px;
     background: var(--accent-color);
 }
 
+
 .portfolio-content {
     display: flex;
     flex-wrap: wrap;
 }
+
 
 .portfolio-list {
     display: flex;
