@@ -414,7 +414,7 @@ padding-bottom: 94px;
 .portfolio-btn-list {
    display: flex;
    margin-bottom: 34px;
-   margin-left: 400px;
+   margin-left: 370px;
 }
 
  
@@ -435,10 +435,14 @@ padding-bottom: 94px;
 
 
 .portfolio-btn:hover, .portfolio-btn:focus {
-    color: #FFFFFF;
+    color: var(--btn-font-color);
     background: var(--accent-color);
 }
 
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .portfolio-list {
     display: flex;
