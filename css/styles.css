@@ -95,8 +95,6 @@ body {
 }
 
 .header-list {
-    padding-top: 32px;
-    padding-bottom: 32px;
     display: flex;
 }
 
@@ -192,7 +190,7 @@ body {
 /* benefits */
 
 .benefits {
-background: var(--about-benefits-background-color);
+background: var(--btn-font-color) ;
 padding-top: 94px;
 padding-bottom: 94px;
 }
@@ -202,6 +200,7 @@ padding-bottom: 94px;
 }
 
 .benefits-list {
+
   display: flex;
 }
 
@@ -234,8 +233,8 @@ padding-bottom: 94px;
 /* about */
 
 .about {
-    background: var(--about-benefits-background-color);
-    padding-bottom: 26px;
+    background: var(--btn-font-color) ;
+    padding-bottom: 94px;
 
 }
 
@@ -261,10 +260,9 @@ padding-bottom: 94px;
 /* team */
 
 .team {
-    background: var(--team-background-color);
-    padding-top: 162px;
-    padding-bottom: 26px;
-    margin-bottom: 68px;
+    background: var(--btn-font-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team-logo {
